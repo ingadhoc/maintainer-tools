@@ -1,10 +1,10 @@
 .. |company| replace:: ADHOC SA
 
-.. |company_logo| image:: http://www.adhoc.com.ar/web/image/247330
+.. |company_logo| image:: https://raw.githubusercontent.com/ingadhoc/maintainer-tools/master/resources/adhoc-logo.png
    :alt: ADHOC SA
    :target: https://www.adhoc.com.ar
 
-.. |icon| image:: http://www.adhoc.com.ar/web/image/247345
+.. |icon| image:: https://raw.githubusercontent.com/ingadhoc/maintainer-tools/master/resources/adhoc-icon.png
 
 .. image:: https://img.shields.io/badge/license-AGPL--3-blue.png
    :target: https://www.gnu.org/licenses/agpl
