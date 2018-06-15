@@ -22,14 +22,14 @@ Installation
 
 To install this module, you need to:
 
-#. Do this ...
+#. Only need to install the module
 
 Configuration
 =============
 
 To configure this module, you need to:
 
-#. Go to ...
+#. Nothing to configure
 
 Usage
 =====
