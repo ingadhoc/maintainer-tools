@@ -158,7 +158,7 @@ class BranchMigrator(object):
                 continue
             module_contents = repo.contents(
                 root_content.path, self.gh_target_branch)
-            manifest = module_contents.get('__openerp__.py')
+            manifest = module_contents.get('__manifest__.py')
             if manifest:
                 modules.append(root_content.path)
                 # Re-read path for retrieving content
