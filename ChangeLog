@@ -1,0 +1,391 @@
+CHANGES
+=======
+
+* [REF] use manifest instead of openerp
+* [ADD] README use default value instead of example (#3)
+* [ADD] README: update logo and icon new linked url (#2)
+* [ADD] Add both icon and reduced logo to use in the README.rst
+* [IMP] Adhoc README
+* ADD adhoc\_module
+* bdist\_all\_wheels: add option to git push changes made to the setup directory
+* [ADD] oca-bdist-all-wheels
+* [REF] CONTRIBUTING.md: Fix typo
+* [IMP] make PR template more simple;
+* [REF] CONTRIBUTING.md: Adding a more tl;dr version in NeverCommit section
+* [REF] CONTRIBUTING: Add cr.savepoint to NeverCommit section
+* [REF] CONTRIBUTING.md: Add section for "never commit the transaction"
+* [FIX] repos\_with\_ids: project\_service > project
+* Use autonumerated lists for instruction items
+* Add hooks to the module template
+* Reduce license headers a bit more
+* [IMP] Add l10n-ethiopia
+* [IMP] Add l10n-ethiopia
+* [REF] CONTRIBUTING.md: Add section for "don't bypass the ORM"
+* [REF] CONTRIBUTING.md: Add no-sql-injection https://doc.odoo.com/contribute/15\_guidelines/coding\_guidelines\_framework/#no-sql-injections-please
+* [ADD] explicitly state that corporate branding is unwanted in OCA modules
+* Rename PULL\_REQUEST\_TEMPLATE to PULL\_REQUEST\_TEMPLATE.md
+* Rename ISSUE\_TEMPLATE to ISSUE\_TEMPLATE.md
+* Update ISSUE\_TEMPLATE
+* [ADD] Contributing link;
+* [ADD] Pull Request Template;
+* [REF] move issue template from readme file of each module into issue\_template file of repository;
+* [IMP] Add l10n-turkey
+* Improve module naming docs
+* update the website adresse
+* [IMP] Add l10n-indonesia
+* [IMP] Add l10n-indonesia
+* Avoid references to Grupo ESOC
+* [IMP] Simplify sample case \`setUp()\`
+* [FIX] PEP8
+* [ADD] Add social repo
+* [IMP] Add l10n-slovenia
+* [IMP] Add l10n-slovenia
+* [FIX] gitignore: add rule exception to static/lib/
+* [IMP] Add connector-salesforce and vertical-education repositories
+* [IMP] Remove versions labels
+* [IMP] Add Moroccan Localization
+* add runbot id for operating-unit
+* added operating-unit in the accounting PSC
+* [REF] contributing: change text for hooks import
+* [REF] add hooks section
+* Improve language and formatting of OCA Guidelines
+* Revert "[WIP] Add a section for installation hooks to define its use in contributing"
+* [REF] add pre and post init hooks section
+* Missing HTTPS in link
+* [REF] README template: Small change in module description. Fix OCA/maintainer-tools#157
+* [IMP] Add Ecuador and Peru localizations
+* [IMP] Add l10n-ecuador
+* Add migrations to template
+* gen\_all\_addonss\_tables: exclude is implemented in oca\_project
+* [FIX] typo in oca\_projects.py
+* gen\_all\_addons\_tables: remove stray comment
+* gen\_all\_addons\_tables: ignore dotnet repo
+* gen\_all\_addons\_tables: pep8
+* \_message is not static
+* Wizards go into wizards folder
+* Add module-level exceptions file
+* Fix typo in OCA name and align with name used elsewhere
+* Update disclaimer of Odoo backport
+* First draft of backport of Odoo Modules
+* Update style and title
+* [ADD] oca-gen-all-addons-tables
+* Change the link of core maintainer team for OCA website
+* Add data placeholder, make demo and view model-agnostic
+* Rename XML files
+* Pro template
+* Add webhook repo
+* Add webhook repo
+* Replace merge proposal by pull request
+* Update CONTRIBUTING.md
+* [REF] readme: change version to branch
+* Update CONTRIBUTING.md
+* [IMP] add --remove-old-repos options to oca-clone-evertying
+* [IMP] migrate\_branch: Don't duplicate issue
+* [FIX] migrate\_branch: allow installable=False manifests
+* [FIX] migrate\_branch: Skip non-existing source branches
+* [REF] autopep8: Delete vim comment
+* [IMP] Fine-tuning delays
+* [IMP] tx\_pull: Discard en.po file
+* [FIX] migrate\_branch: Fix argument text
+* [FIX] oca\_projects: Exclude OCB, OpenUpgrade and pylint-odoo
+* [IMP] migrate\_branch: Get rid of \_\_unported\_\_ dir
+* [IMP] migrate\_branch: Consider also manifests without installable key
+* [ADD] migrate\_branch: Tool for migrating branches for Odoo versions
+* Rem useless link https://www.odoo.com/forum/help-1
+* [REF] add break line  github issues link
+* [REF] add break line to feedback hyperlink
+* [FIX] gen\_addons\_tables: fix problem when there is no addon at all
+* banking repo is now named bank-payment
+* [ADD] sync 9.0
+* [IMP] gen\_addons\_table: properly install script
+* [ADD] gen\_addons\_table: test
+* [ADD] gen\_addons\_table script
+* Remove spaces to treat asterisks as indicators of emphasis and not as literal asterisks
+* fix oca-clone-everything and add some documentation
+* Typo in repo list
+* [IMP] Comments
+* Modified the intercompany repo to connector-odoo2odoo repo removed extra file .save
+* [REF] contributing: api.one deprecated
+* [IMP] complete Differences With Odoo Guidelines
+* [IMP] complete coding message
+* [FIX] Work around Transifex limitations
+* [REF] CONTRIBUTING.md: Fix typo
+* Fixed typo error in CONTRIBUTING.md
+* Modified CONTRIBUTING rules on import declaration order to import unknown third party library at the end of the import section
+* Depend on base by default
+* Reorder
+* [IMP] Close PR if no activity
+* Add real author to author key too
+* Default category is "Uncategorized"
+* Copyright first
+* This is a template, not docs
+* Fixed contributing import rules conflict
+* [IMP] Propose to close unanswered PR after 6 months
+* update oca\_projects.py
+* Add the inter-company repo for inter-company processes via connector.  Changes to be committed: 	modified:   oca\_projects.py 	modified:   repos\_with\_ids.txt
+* [REF] CONTRIBUTING.md: Add avoid duplicate xml\_id, avoid use current module in xml\_id and add user\_id in ir.filters
+* add our bots to the teams
+* [ADD] repo vertical-association
+* invite members to teams
+* fix odoo\_login.py
+* [FIX] typo
+* [IMP] Refactor code (try to ease the comprehension) Get gihub project name and branch from the transifex project name. (Previous to this change, the script didn't worked for projects l10n-XXXX Add the possibility to specify on the command line an other organisation where to push the translation in place of the default OCA Add the possibility to specify on the command line an email address to use when commiting since it's required and the one on the github account is not always publicly available
+* [ADD] Entry point for transifex pull script
+* [REF] tx\_pull: Add multi-organization. Add Dockerfile. Add depends to requirements.txt. Add regex to get project data
+* [IMP] tx\_pull: RC version
+* Correct script to respect convention
+* Correct misspelled word
+* Correct misspelled word and remove not needed import
+* Start Transifex sync script
+* [ADD] oca-autopep8: Add script autopep8 extended to support replace of class name from snake\_case to CamelCase
+* [REF] add link to AGPL licence;
+* [IMP] Add Connector WooCommerce
+* [IMP] Add Connector WooCommerce
+* README template: make the module title a real title
+* Add website to repos\_with\_ids.txt
+* [ADD] Added the l10n-united-kingdom repository Changes to be committed: 	modified:   tools/oca\_projects.py 	modified:   tools/repos\_with\_ids.txt
+* [ADD] Add Social ID in repos\_with\_ids.txt file
+* Use reduced license and copyright header
+* [REF] CONTRIBUTING: Add use of default label string in fields
+* [IMP] Use a button image
+* Bugfixes should also bump version numbers
+* Add guideline for version numbers
+* [IMP] Remove credentials and add link
+* Revert "Add guideline for version numbers"
+* [IMP] Add demo section
+* Add license boilerplate
+* [FIX] eggs folder should be ignored
+* Replace Module Name by a placeholder so less people will forget it, hopefully
+* Bugfixes should also bump version numbers
+* [REF] CONTRIBUTING.md: add newline
+* [REF] CONTRIBUTING.md: Change log of info to debug. Add which and import example case
+* Modules are not applications by default
+* Fix coding header
+* Add docs
+* Remove blank lines
+* [REF] CONTRIBUTING.md: Add section README to external\_dependencies matter
+* [REF] CONTRIBUTING.md: Don't use CamelCase for model variable. Add constants uppercase
+* [REF] CONTRIBUTING.md: Add external dependencies case
+* More changes to template
+* Add template magic files. Required in all modules
+* Add guideline for version numbers
+* FIX report naming
+* Update tree for reports, sort lists alphabetically
+* Fix guidelines for QWeb reports
+* Fix guidelines for lambda default
+* Add guidelines for placing reports
+* Update CONTRIBUTING.md
+* Add wizard files to proposed structure
+* [REF] CONTRIBUTING.md: Add isort command
+* Fix dead link
+* updated ERPpeek to 1.6.1
+* add two factor authentification
+* [IMP] Add Iran Localization
+* [IMP] Add US Localization
+* [IMP] Add US Localization
+* Add directives for module manifests
+* extend the explanation on the use of a module name
+* [IMP] Add localizations
+* [IMP] Add localizations
+* fix-exception UserError not in v8
+* add event and survey to repos\_with\_ids.txt
+* add event and survey modules
+* import pdb at the top
+* Update CONTRIBUTING.md
+* add CONTRIBUTING.md template
+* more complete commit message
+* fix: do not add lines more than once
+* add list of repos and ids
+* Add OCA specific variations to Odoo guidelines
+* Convert guidelines to markdown and put in sample\_files
+* fail of reset or clean fail
+* add transifex badge
+* initial script to add badges and climate (with pdb)
+* Replace spaces by %20 in url so they will stay in temlate
+* Add linebreak to not miss the link place holders to fill
+* Change link to GitHub Issues to explicitely show where it goes
+* Remove www from github urls
+* Issue with bug report template
+* Add bug tracker in template in order to teach users where to report their issues instead of doing it on unread rating of app.odoo.com
+* Load OCA image via HTTPS
+* [IMP] Rename and move file
+* [FIX] Upper case in localization
+* [FIX] Titles formatting
+* [FIX] Formatting
+* [IMP] Rename file
+* Initial version of OCA Conventions
+* Fix typo and sexism
+* Contributors not separated by a blank line
+* Show license where images cannot be loaded
+* Extra spaces made like quotes what was not
+* [IMP] template: Make it 80 cols compliant
+* use github login when available
+* [IMP] Default template icon
+* [ADD] OCA icon
+* do a fetch when the repo has already been cloned
+* fix flake8
+* fix bug: side effect of erppeek smart browse
+* email address is mandatory to create a user
+* fix unicode handling
+* fix typo in field name
+* improve code
+* add oca\_sync\_users
+* Filter out internal / template projects
+* Change the doc so the virtualenv is 'inside' maintainers-tools which seems better to me
+* Add a header in copy\_maintainers.py
+* Add details in README.md
+* Completed the oca-copy-maintainers script
+* Use a parent parser for odoo options, started to implement the sync
+* Add local arguments for the oca-copy-maintainers script
+* Add an entry point for oca-odoo-login so we can register
+* Started the script to connect to odoo,
+* Update README
+* Add erppeek as requirement
+* [IMP] Add AGPL-3 badge A simple way to visualy promote the endorsement of AGPL-3 by OCA
+* drop testing with python2.6
+* [FIX] Typo
+* [FIX] Typo
+* [IMP] Sync description templates
+* [ADD] Description templates (rst, html)
+* [REF] clone\_everything: group code newline
+* [REF] clone\_everything: Adding subprocess call method of last cmd
+* [IMP] clone\_everything: IMP to add optional remotes after of clone
+* [FIX] we want local head, not origin
+* [IMP] set executable flag
+* [IMP] explicitly push into origin
+* [ADD] Add asterisk-connector module
+* [IMP] exit with non-zero exit code in case of error
+* [ADD] description [IMP] use /var/tmp by default
+* [ADD] ocb-sync.sh
+* add odoo version labels
+* commented out OCA/commission
+* add oca-set-repo-labels usage in README.md
+* conform with other script using github3
+* add a script to synchronize labels on all OCA repositories
+* commented community-data-files
+* fix indentation
+* added connector-prestashop
+* added community-data-files
+* commented out sale-financial
+* commented out purchase-reporting
+* commented out product-variant
+* commented multi-company
+* commented out vertical-medical
+* convert clone\_everything to python
+* fix some project urls
+* pep8 fixes
+* Remove management-system
+* Comment account-invocing project
+* commented out account-closing
+* commented out margin-analysis
+* added missing projects
+* improve check\_contrib tool
+* oca\_projects: complete the list
+* added clone\_everything
+* improve documentation
+* extract oca project information in a separate module
+* [ADD] check\_contrib: new tool to list contributors to an OCA project
+* Commented account-financial-report branch
+* comment out account-analytic
+* Comment purchase-workflow branch
+* [ADD] comment sale-workflow
+* [IMP] comment https://launchpad.net/hr-timesheet
+* Remove partner-contact mapping
+* Knowledge migrated
+* Remove connector-sage
+* Remove travel
+* Comment account-consolidation
+* Comment the RMA repo as it as moved
+* comment out connector-magento; moved to github
+* comment crm mapping
+* Remote account edge
+* Remove HR
+* Update branches.yaml
+* comment product-attribute
+* Comment server-env-tool
+* comment out account-budgeting: it is on github
+* e-commerce migrated, comment out lines
+* [RFR] Comment out banking project
+* comment web-addons as they are being migrated to github
+* connector-ecommerce migrated, comment lines
+* [IMP] commenting italy branches as moved to github
+* wrong serie for vertical-ngo
+* Contract(-mgmt) migrated to GitHub
+* Remove program as it is still under heavily developement
+* add openerp-rma with new alias rma
+* comment report-print-send
+* Project bank-statement-reconcile migrated to GitHub
+* Account payment repository migrates to GitHub
+* Fix conflitct with migr-project-service
+* Project Reporting  migrated to GitHub
+* Project & Services migrated to GitHub
+* comment webkit-tools
+* comment sale-reporting
+* commented out stock-logistics-xxxx which have been migrated
+* add ngo
+* replace utils by tools
+* replace wkfl and flows by workflow
+* remove mgmt
+* remove env in server-env-tools
+* rename adding 'vertical' for isp
+* rename remove plurals
+* rename adding 'vertical'
+* renaming removing useless 'addons'
+* rename adding l10n
+* rename report\* -> reporting
+* rename logistic -> logistics
+* Add lp:openerp-crm -> OCA/crm
+* Comment department as it moved to GitHub
+* Commenting project geospatial as it has moved to github
+* comment account-invoice-report(ing)
+* carriers-deliveries done
+* wrong indentation for italy mapping
+* Comment account-financial-tools in branch mapping as project has moved to github
+* [ADD] italian branches mapping
+* Update README.md
+* Removed 'switzerland' from the mapping file
+* Removed 'connector' from the mapping file because it is now hosted on GitHub
+* remove python 3.x and pypy from travis because we use bzrlib which is not compatible with these versions
+* add installation notice for git-remote-bzr
+* add ref to the how to move a merge proposal
+* pep8
+* add a --mapping option to choose an alternative mapping file
+* merge from master
+* push tags to github (lost during a merge)
+* Update README.md
+* remove openerp-edition: empty on launchpad
+* resolved the missing projects by creating them or removing them from the list
+* fix developer setup instructions (closes #4)
+* small README.md improvement
+* this branch was there for testing purpose
+* copy\_branches
+* add 7.0 branches
+* comment branches or projects that have no branches on launchpad
+* no branches in openerp-lims-connect
+* no branches in openerp-edition
+* Add the new command in the README
+* the 6.1 serie of e-commerce-addons is oerp6.1-stable
+* reverse the 'dry-run' logic and renamed to --push --no-push, --no-push is the default
+* remove extra space
+* Push branches to GitHub
+* clone and fetch bzr branches
+* Add travis tests, improve .gitignore
+* Remove wsgiref as it doesn't support newer versions of python
+* Make pep8 compliant
+* Fix classifier in setup.cfg
+* wrong requirement
+* clone / pull branches
+* oca-copy-branches reads and displays the mapping
+* Mapping of branches from Launchpad to GitHub
+* started script to migrate branches
+* unused imports
+* more details in README
+* unused import
+* indentation
+* allow to use an environment variable for the token
+* Added a minimal documentation in README.md
+* The setuptools console\_scripts entry point wants a function without args, so added a main() that read args with argparse
+* Use auth by token, github login will be shared by all the scripts
+* added .gitignore (recommended by GitHub for Python projects)
+* Add script that copies the maintainers from the maintainers team to all the others teams of the OCA
+* first commit

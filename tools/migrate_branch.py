@@ -214,7 +214,8 @@ class BranchMigrator(object):
             tree_data.append(self._replace_content(
                 repo, '.travis.yml',
                 [(source_string, target_string),
-                 (source_string_dash, target_string_dash)]))
+                 (source_string_dash, target_string_dash),
+                 ('python:\n  - "3.5"', 'python:\n  - "3.6"')]))
         self._create_commit(
             repo, tree_data, "[MIG] Update metafiles")
 
